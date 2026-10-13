@@ -1,35 +1,34 @@
 #!/usr/bin/env bash
 # ---------------------------------------------------------------------------
-# Cierre mensual de afiliados activos (script heredado de Operaciones).
-# Autor original: equipo de sistemas 2019. Última modificación: "temporal".
+# Cierre mensual de afiliados activos.
+#   1. Genera output/ con cierre.py (lee data/ y logs/).
+#   2. Limpia la base (duplicados, huerfanos, fechas) con limpieza.sql.
+# Es repetible: puede correr varias veces seguidas.
 # ---------------------------------------------------------------------------
-set -e
+set -euo pipefail
 
-ENTRADA=/opt/cierre/entrada
-SALIDA=output
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="$(dirname "$SCRIPT_DIR")"
+cd "$BASE_DIR"
 
-mkdir $SALIDA
+# 1. Archivos de salida
+python3 "$SCRIPT_DIR/cierre.py"
 
-echo "Leyendo afiliados desde $ENTRADA/AFI_MAE.csv"
+# 2. Base de datos
+[ -f .env ] || cp .env.example .env
+set -a; . ./.env; set +a
+docker compose up -d cierre-db >/dev/null
 
-# Archivo de activos para Subsidios
-echo "documento,nombre,estado,cod_empresa,empresa,beneficiarios,ultimo_aporte" > $SALIDA/afiliados_activos.csv
-awk -F',' 'NR > 1 && $7 == "A" { print $1 "," $3 " " $4 " " $5 " " $6 ",ACTIVO," $8 ",,0," }' \
-    $ENTRADA/AFI_MAE.csv >> $SALIDA/afiliados_activos.csv
+echo ">> Esperando a cierre-db"
+for _ in $(seq 1 60); do
+    if docker compose exec -T cierre-db pg_isready -U "${POSTGRES_USER:-cierre}" -d "${POSTGRES_DB:-cierre}" >/dev/null 2>&1; then
+        break
+    fi
+    sleep 2
+done
 
-# TODO: nombre de la empresa desde EMPRESA.csv
-# TODO: contar beneficiarios desde AFI_BEN.csv
-# TODO: último aporte desde APORTES.csv (YYYY-MM)
-# TODO: excepciones (lo pidió Auditoría, nunca se terminó)
-# TODO: cruce con el extracto de Caja Oriente
-
-TOTAL=$(tail -n +2 $ENTRADA/AFI_MAE.csv | wc -l)
-ACTIVOS=$(tail -n +2 $SALIDA/afiliados_activos.csv | wc -l)
-echo "total_afiliados=$TOTAL" >> $SALIDA/totales.txt
-echo "activos=$ACTIVOS" >> $SALIDA/totales.txt
-
-# El archivo de entrada ya fue procesado
-mkdir -p $ENTRADA/procesados
-mv $ENTRADA/AFI_MAE.csv $ENTRADA/procesados/
+echo ">> Limpiando la base"
+docker compose exec -T cierre-db psql -v ON_ERROR_STOP=1 -q \
+    -U "${POSTGRES_USER:-cierre}" -d "${POSTGRES_DB:-cierre}" < "$SCRIPT_DIR/limpieza.sql"
 
 echo "Cierre terminado"
