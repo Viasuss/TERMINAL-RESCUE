@@ -1,0 +1,105 @@
+documento,tipo,detalle
+3753924849,DUPLICADO,Documento 3753924849 duplicado en AFI_MAE
+1020751549,DUPLICADO,Documento 1020751549 duplicado en AFI_MAE
+6035736385,DUPLICADO,Documento 6035736385 duplicado en AFI_MAE
+1344766047,DUPLICADO,Documento 1344766047 duplicado en AFI_MAE
+88361387,DUPLICADO,Documento 88361387 duplicado en AFI_MAE
+88576694,DUPLICADO,Documento 88576694 duplicado en AFI_MAE
+1367901463,DUPLICADO,Documento 1367901463 duplicado en AFI_MAE
+88724664,DUPLICADO,Documento 88724664 duplicado en AFI_MAE
+1341837102,DUPLICADO,Documento 1341837102 duplicado en AFI_MAE
+8869583590,DUPLICADO,Documento 8869583590 duplicado en AFI_MAE
+3719530955,DUPLICADO,Documento 3719530955 duplicado en AFI_MAE
+1371283409,DUPLICADO,Documento 1371283409 duplicado en AFI_MAE
+8869124143,DUPLICADO,Documento 8869124143 duplicado en AFI_MAE
+13824220,DUPLICADO,Documento 13824220 duplicado en AFI_MAE
+1396374155,DUPLICADO,Documento 1396374155 duplicado en AFI_MAE
+3795423152,DUPLICADO,Documento 3795423152 duplicado en AFI_MAE
+1040982710,DUPLICADO,Documento 1040982710 duplicado en AFI_MAE
+1048335414,DUPLICADO,Documento 1048335414 duplicado en AFI_MAE
+1366075689,DUPLICADO,Documento 1366075689 duplicado en AFI_MAE
+88253924,DUPLICADO,Documento 88253924 duplicado en AFI_MAE
+1078175958,SIN_EMPRESA,Afiliado activo con COD_EMP '1999' no encontrado en EMPRESA
+1044259063,FECHA_INVALIDA,Fecha inválida '2025-02-30' para documento 1044259063
+8830134354,FECHA_INVALIDA,Fecha inválida '2025-02-30' para documento 8830134354
+1386135212,CODIGO_INVALIDO,Código de estado inválido 'Z' para documento 1386135212
+8865118580,CODIGO_INVALIDO,Código de estado inválido 'P' para documento 8865118580
+60256758,CODIGO_INVALIDO,Código de estado inválido 'P' para documento 60256758
+6062486330,SIN_EMPRESA,Afiliado activo con COD_EMP '' no encontrado en EMPRESA
+13254412,CODIGO_INVALIDO,Código de estado inválido 'X' para documento 13254412
+8810996444,CODIGO_INVALIDO,Código de estado inválido 'P' para documento 8810996444
+8807180112,CODIGO_INVALIDO,Código de estado inválido '9' para documento 8807180112
+3729836957,SIN_EMPRESA,Afiliado activo con COD_EMP '9999' no encontrado en EMPRESA
+8876014103,SIN_EMPRESA,Afiliado activo con COD_EMP '1999' no encontrado en EMPRESA
+1052051148,FECHA_INVALIDA,Fecha inválida '31/13/2024' para documento 1052051148
+6047908454,SIN_EMPRESA,Afiliado activo con COD_EMP '' no encontrado en EMPRESA
+3757045739,FECHA_INVALIDA,Fecha inválida '00000000' para documento 3757045739
+13645711,SIN_EMPRESA,Afiliado activo con COD_EMP '' no encontrado en EMPRESA
+88242437,SIN_EMPRESA,Afiliado activo con COD_EMP '0000' no encontrado en EMPRESA
+1058468350,FECHA_INVALIDA,Fecha inválida 'SIN FECHA' para documento 1058468350
+3757915872,SIN_EMPRESA,Afiliado activo con COD_EMP '9999' no encontrado en EMPRESA
+3743426246,SIN_EMPRESA,Afiliado activo con COD_EMP '0000' no encontrado en EMPRESA
+3709342692,FECHA_INVALIDA,Fecha inválida '2024-00-10' para documento 3709342692
+6089354914,FECHA_INVALIDA,Fecha inválida '31/13/2024' para documento 6089354914
+3703303283,SIN_EMPRESA,Afiliado activo con COD_EMP '9999' no encontrado en EMPRESA
+60692566,FECHA_INVALIDA,Fecha inválida 'SIN FECHA' para documento 60692566
+8874391659,FECHA_INVALIDA,Fecha inválida '00000000' para documento 8874391659
+88296276,CODIGO_INVALIDO,Código de estado inválido 'Z' para documento 88296276
+1358774823,SIN_EMPRESA,Afiliado activo con COD_EMP '0000' no encontrado en EMPRESA
+8810057414,SIN_EMPRESA,Afiliado activo con COD_EMP '' no encontrado en EMPRESA
+1064872879,CODIGO_INVALIDO,Código de estado inválido 'Z' para documento 1064872879
+8802342426,SIN_EMPRESA,Afiliado activo con COD_EMP '' no encontrado en EMPRESA
+1345926029,SIN_EMPRESA,Afiliado activo con COD_EMP '' no encontrado en EMPRESA
+1066380991,CODIGO_INVALIDO,Código de estado inválido 'P' para documento 1066380991
+37187038,SIN_EMPRESA,Afiliado activo con COD_EMP '8888' no encontrado en EMPRESA
+1061320764,CODIGO_INVALIDO,Código de estado inválido 'Z' para documento 1061320764
+1048555096,CODIGO_INVALIDO,Código de estado inválido '9' para documento 1048555096
+8839725844,SIN_EMPRESA,Afiliado activo con COD_EMP '' no encontrado en EMPRESA
+6026309765,FECHA_INVALIDA,Fecha inválida 'N/A' para documento 6026309765
+1062105218,SIN_EMPRESA,Afiliado activo con COD_EMP '' no encontrado en EMPRESA
+8825832436,CODIGO_INVALIDO,Código de estado inválido 'X' para documento 8825832436
+13973538,CODIGO_INVALIDO,Código de estado inválido 'Z' para documento 13973538
+8803649849,FECHA_INVALIDA,Fecha inválida '2023/02/29' para documento 8803649849
+13684450,CODIGO_INVALIDO,Código de estado inválido '9' para documento 13684450
+60087263,FECHA_INVALIDA,Fecha inválida '15-15-2019' para documento 60087263
+13291368,SIN_EMPRESA,Afiliado activo con COD_EMP '' no encontrado en EMPRESA
+1260428286,BENEFICIARIO_HUERFANO,Beneficiario 1260428286 depende de afiliado 1311452235 inexistente
+1205545819,BENEFICIARIO_HUERFANO,Beneficiario 1205545819 depende de afiliado 1093262110 inexistente
+1232818011,BENEFICIARIO_HUERFANO,Beneficiario 1232818011 depende de afiliado 1307007749 inexistente
+1229863944,BENEFICIARIO_HUERFANO,Beneficiario 1229863944 depende de afiliado 1095957861 inexistente
+1197831201,BENEFICIARIO_HUERFANO,Beneficiario 1197831201 depende de afiliado 1349940305 inexistente
+12775950,BENEFICIARIO_HUERFANO,Beneficiario 12775950 depende de afiliado 1078942495 inexistente
+12103475,BENEFICIARIO_HUERFANO,Beneficiario 12103475 depende de afiliado 1309036275 inexistente
+1247380700,BENEFICIARIO_HUERFANO,Beneficiario 1247380700 depende de afiliado 13728590 inexistente
+1180158629,BENEFICIARIO_HUERFANO,Beneficiario 1180158629 depende de afiliado 1072852916 inexistente
+12432317,BENEFICIARIO_HUERFANO,Beneficiario 12432317 depende de afiliado 1099805066 inexistente
+1266491711,BENEFICIARIO_HUERFANO,Beneficiario 1266491711 depende de afiliado 1387837657 inexistente
+1169047480,BENEFICIARIO_HUERFANO,Beneficiario 1169047480 depende de afiliado 1348020713 inexistente
+1146346706,BENEFICIARIO_HUERFANO,Beneficiario 1146346706 depende de afiliado 1012169149 inexistente
+12021084,BENEFICIARIO_HUERFANO,Beneficiario 12021084 depende de afiliado 1369273925 inexistente
+1129041670,BENEFICIARIO_HUERFANO,Beneficiario 1129041670 depende de afiliado 1026695269 inexistente
+6060554836,CRUCE_NO_COINCIDE,Situación RETIRADO no coincide con estado local A
+1008958781,CRUCE_NO_COINCIDE,Situación RETIRADO no coincide con estado local A
+1002471016,CRUCE_NO_COINCIDE,Afiliado 1002471016 del extracto no existe en AFI_MAE
+60638164,CRUCE_NO_COINCIDE,Situación RETIRADO no coincide con estado local A
+1043196119,CRUCE_NO_COINCIDE,Afiliado 1043196119 del extracto no existe en AFI_MAE
+3741495054,CRUCE_NO_COINCIDE,Situación VIGENTE no coincide con estado local I
+1027394279,CRUCE_NO_COINCIDE,Afiliado 1027394279 del extracto no existe en AFI_MAE
+3739675472,CRUCE_NO_COINCIDE,Situación VIGENTE no coincide con estado local I
+1000385358,CRUCE_NO_COINCIDE,Afiliado 1000385358 del extracto no existe en AFI_MAE
+6039035908,CRUCE_NO_COINCIDE,Situación RETIRADO no coincide con estado local A
+13198168,CRUCE_NO_COINCIDE,Situación RETIRADO no coincide con estado local A
+1057370088,CRUCE_NO_COINCIDE,Afiliado 1057370088 del extracto no existe en AFI_MAE
+1307174900,CRUCE_NO_COINCIDE,Situación VIGENTE no coincide con estado local I
+3719889042,CRUCE_NO_COINCIDE,Situación VIGENTE no coincide con estado local I
+8832988347,CRUCE_NO_COINCIDE,Situación RETIRADO no coincide con estado local A
+13857633,CRUCE_NO_COINCIDE,Situación VIGENTE no coincide con estado local I
+3785034513,CRUCE_NO_COINCIDE,Situación VIGENTE no coincide con estado local I
+1084155486,CRUCE_NO_COINCIDE,Situación RETIRADO no coincide con estado local A
+60838637,CRUCE_NO_COINCIDE,Afiliado 60838637 del extracto no existe en AFI_MAE
+1013042442,CRUCE_NO_COINCIDE,Afiliado 1013042442 del extracto no existe en AFI_MAE
+1027899673,CRUCE_NO_COINCIDE,Afiliado 1027899673 del extracto no existe en AFI_MAE
+88647779,CRUCE_NO_COINCIDE,Situación VIGENTE no coincide con estado local I
+1021958956,CRUCE_NO_COINCIDE,Situación VIGENTE no coincide con estado local I
+60213545,CRUCE_NO_COINCIDE,Afiliado 60213545 del extracto no existe en AFI_MAE
+1032087547,CRUCE_NO_COINCIDE,Afiliado 1032087547 del extracto no existe en AFI_MAE

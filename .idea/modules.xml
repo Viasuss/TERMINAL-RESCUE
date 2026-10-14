@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/fesc-tecnico-ori.iml" filepath="$PROJECT_DIR$/.idea/fesc-tecnico-ori.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fesc-tecnico.iml" filepath="$PROJECT_DIR$/.idea/fesc-tecnico.iml" />
     </modules>
   </component>
 </project>
