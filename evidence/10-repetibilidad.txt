@@ -1,0 +1,6 @@
+Name                  Length LastWriteTime           
+----                  ------ -------------           
+afiliados_activos.csv 102496 13/10/2026 4:41:22 p. m.
+excepciones.csv         8427 13/10/2026 4:41:22 p. m.
+top_error.txt             41 13/10/2026 4:41:22 p. m.
+totales.txt               68 13/10/2026 4:41:22 p. m.

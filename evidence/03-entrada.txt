@@ -1,0 +1,5 @@
+FullName : C:\Users\Johan Viasus\Downloads\fesc-tecnico\scripts\cierre.sh
+Length   : 362
+
+FullName : C:\Users\Johan Viasus\Downloads\fesc-tecnico\scripts\cierre.py
+Length   : 8178

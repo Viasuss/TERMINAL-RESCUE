@@ -1,0 +1,15 @@
+cierre-worker-1  | [2026-10-13T21:39:19Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:39:49Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:40:19Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:40:49Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:41:19Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:41:49Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:42:19Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:42:49Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:43:19Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:43:49Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:44:19Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:44:49Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:45:19Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:45:49Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
+cierre-worker-1  | [2026-10-13T21:46:19Z] [INFO] conciliacion registros=1520 documentos_distintos=1500
