@@ -30,12 +30,12 @@ Las variables de entorno requeridas en el archivo `.env.example` y `.env` son:
 
 - `POSTGRES_DB`: Nombre de la base de datos principal de PostgreSQL (ejemplo: `cierre`).
 - `POSTGRES_USER`: Usuario administrador para la base de datos relacional (ejemplo: `cierre`).
-- `POSTGRES_PASSWORD`: Contraseña para autenticación en la base de datos (ejemplo: `cambia_esta_clave`).
+- `POSTGRES_PASSWORD`: Contraseña para autenticación en la base de datos (el valor de ejemplo está en `.env.example`; cámbielo antes de usar).
 - `DATABASE_HOST`: Host de conexión de red para la base de datos, correspondiente al servicio Docker (ejemplo: `cierre-db`).
 - `DATABASE_PORT`: Puerto TCP interno del motor PostgreSQL (ejemplo: `5432`).
 - `DATABASE_NAME`: Base de datos a la que conectan la API y el worker (ejemplo: `cierre`).
 - `DATABASE_USER`: Usuario de aplicación para conexiones de base de datos (ejemplo: `cierre`).
-- `DATABASE_PASSWORD`: Credencial de conexión para la aplicación (ejemplo: `cambia_esta_clave`).
+- `DATABASE_PASSWORD`: Credencial de conexión para la aplicación (el valor de ejemplo está en `.env.example`; cámbielo antes de usar).
 - `API_PORT`: Puerto expuesto en el host para el servicio de consulta HTTP (ejemplo: `8081`).
 - `WORKER_INTERVAL_SECONDS`: Intervalo periódico en segundos para la conciliación del worker (ejemplo: `30`).
 
